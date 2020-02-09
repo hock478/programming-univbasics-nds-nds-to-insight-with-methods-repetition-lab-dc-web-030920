@@ -54,7 +54,7 @@ def total_gross(source)
   index = 0
   while index < list_of_directors.length do
     dir_name = directors_names[index]
-    running_total += directors_hash[:name]
+    running_total += directors_hash[dir_name]
     index += 1
   end
   return running_total
