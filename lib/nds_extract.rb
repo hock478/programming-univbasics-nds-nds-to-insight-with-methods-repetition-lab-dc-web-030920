@@ -51,7 +51,7 @@ def total_gross(source)
     running_total += directors_hash[dir_name]
     index += 1
   end
-  return 5
+  return running_total
 end
 
 
