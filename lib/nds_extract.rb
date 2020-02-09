@@ -6,7 +6,7 @@ def directors_totals(source)
   director_index = 0
   while director_index < source.size do
     director = source[director_index]
-    names << 
+    names << source[director_index][:name]
     director_index += 1
   end
   result
