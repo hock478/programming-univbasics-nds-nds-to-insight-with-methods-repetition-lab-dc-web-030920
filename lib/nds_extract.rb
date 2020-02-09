@@ -27,16 +27,14 @@ end
 def list_of_directors(source)
   # Write this implementation
   
-   result = []
-   directors_index = 0 
-   directors_list = source.length
+   names = []
+ i = 0
 
-   while directors_index < directors_list do  
-     result << source[directors_index][:name]
-     directors_index += 1 
+ while i < source.length do
+   names << source[i][:name]
+   i += 1
+ end
 
-   end
-   result
   
 end
 
