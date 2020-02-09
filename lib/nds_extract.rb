@@ -34,7 +34,7 @@ def list_of_directors(source)
    names << source[i][:name]
    i += 1
  end
-
+names
   
 end
 
