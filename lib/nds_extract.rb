@@ -2,7 +2,7 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 require_relative './directors_database'
 
 def directors_totals(source)
-  result = {}
+  names = []
   director_index = 0
   while director_index < source.size do
     director = source[director_index]
