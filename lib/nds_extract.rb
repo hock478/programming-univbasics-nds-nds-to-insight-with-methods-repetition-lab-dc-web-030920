@@ -27,16 +27,16 @@ end
 def list_of_directors(source)
   # Write this implementation
   
-  source.map{ |d| d[:name] }
-   names = []
-   i = 0
+   result = []
+   directors_index = 0 
+   directors_list = source.length
 
-   while i < source.length do
-     names << source[i][:name]
-     i += 1
+   while directors_index < directors_list do  
+     result << source[directors_index][:name]
+     directors_index += 1 
+
    end
-
-   names
+   result
   
 end
 
